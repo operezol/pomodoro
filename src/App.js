@@ -111,7 +111,7 @@ const App = () => {
           {isRunning ? 'Stop' : 'Start'}
         </button>
         <button id="reset" onClick={resetTimer}>Reset</button>
-        <audio id="beep" ref={audioElement} src="/beep.wav" />
+        <audio id="beep" ref={audioElement} src="https://www.soundjay.com/buttons/sounds/beep-14.mp3" />
       </div>
       <div></div>
     </div>
